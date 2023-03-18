@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: ${{ a308304bf67b45078fdc01c0a578b8cc }}
-          GP_TOKEN: ${{ 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}}
+          REFRESH_TOKENS: ${{ secrets.a308304bf67b45078fdc01c0a578b8cc }}
+          GP_TOKEN: ${{ secrets.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}}
           PUSH_TYPES: ''
-          SERVERCHAN_SEND_KEY: ${{ SCT113486TaMf9M4DhJuLyGl0glH1yVL3U }}
+          SERVERCHAN_SEND_KEY: ${{ secrets.SCT113486TaMf9M4DhJuLyGl0glH1yVL3U }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
